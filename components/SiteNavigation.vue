@@ -11,8 +11,20 @@
 		<NuxtLink to="/buildings">
       Buildings
     </NuxtLink>
+    <NuxtLink to="/events">
+      Events
+    </NuxtLink>
 	</nav>
 </template>
-<script>
 
-</script>
+<style>
+  nav, a { 
+    color: red;
+    font-family: courier;
+    font-size: 25px;
+  }
+
+  nav, a:hover {
+    color: green;
+  }
+</style>
