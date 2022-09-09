@@ -30,6 +30,21 @@ export default {
 			}
 			throw new Error(res.status)
 		})
+		console.log(building);
+		// create empty araay
+		let yearArr = [];
+		//loop through buildings/events array
+			for (let i = 0; i < building.length; i++) {
+				// some variables
+				let year = "1971";
+				let buildingYear = building[i].acf.year;
+				// for each one, check the year
+					if (buildingYear == year) {
+						//if there's a match, push into new array
+							yearArr.push(building[i]);
+					}
+			}
+			console.log(yearArr);
 		return { building }
 	},
 }
