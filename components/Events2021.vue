@@ -42,7 +42,7 @@ export default {
 		// // create empty array
 		let yearArr = [];
 		for (let i = 0; i < apiData.length; i++) {
-			let year = "2022";
+			let year = "2021";
 			let eventYear = apiData[i].acf.year;
 			if (eventYear == year) {
 				yearArr.push(apiData[i]);

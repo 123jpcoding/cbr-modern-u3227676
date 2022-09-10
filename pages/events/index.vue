@@ -8,9 +8,9 @@
 
 		<div class="events">
 			<!-- Shows the Events Navigation -->
-			<PastEventsNav />
+			<EventsNav />
 			<h3>Upcoming Events</h3>
-			<UpcomingEvents />
+			<Events2022 />
 
 			<!-- this is a really useful line of code that will just output what the API call returns -->
 			<!-- <pre>{{ $data }}</pre> -->
