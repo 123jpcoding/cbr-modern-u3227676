@@ -9,16 +9,15 @@
 			<!-- this is a for loop, it just loops through the list of events returned from the API -->
 			<li v-for="event in events" :key="event.id" class="list-group-item">
 				<!-- now make a link for each item -->
-				<!-- <NuxtLink :to="building.slug"> -->
+				<!-- <NuxtLink :to="event.slug"> -->
 				<NuxtLink :to="'/events/' + event.slug">
 					<!-- return the rendered title -->
 					{{  event.title.rendered  }}
 				</NuxtLink>
-				<!-- now show me the building year -->
-				: {{ event.slug }}
+				<!-- now show me the event year -->
+				: {{ event.acf.year }}
 			</li>
 		</ul>
-		<h3>this list is stored in components/eventsList.vue</h3>
 
 	</div>
 </template>
@@ -26,17 +25,32 @@
 
 <script>
 export default {
-	// layout: 'home',
-	async fetch() {
-		this.events = await fetch('http://cm.beneb.com/wp-json/wp/v2/events/?per_page=20').then((res) =>
-			res.json()
-		)
-	},
+	// data will return an array,
 	data() {
 		return {
-			events: [],
+			//empty array to be filled
+			events: [], 
 		}
 	},
+	//fetching data
+	async fetch() {
+		let apiData = await fetch ('http://cm.beneb.com/wp-json/wp/v2/events/?per_page=100')
+		.then((response) =>
+			response.json()
+		)
+		console.log(apiData)
+		// // create empty array
+		let yearArr = [];
+		for (let i = 0; i < apiData.length; i++) {
+			let year = "2020";
+			let eventYear = apiData[i].acf.year;
+			if (eventYear == year) {
+				yearArr.push(apiData[i]);
+			}
+		}
+		console.log(yearArr);
+		this.events = yearArr;
+	} 
 }
 </script>
 

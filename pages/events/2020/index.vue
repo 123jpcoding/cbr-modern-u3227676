@@ -9,8 +9,8 @@
 		<div class="events">
 			<!-- Shows the Events Navigation -->
 			<EventsNav />
-			<h3>2019 Events</h3>
-			<Events2019/>
+			<h3>2020 Events</h3>
+			<Events2020/>
 		</div>
 	</div>
 </template>
