@@ -10,19 +10,7 @@ h2 {
 
 ul {
   padding: 20px;
+  list-style: none;
 }
 
-ul li {
-  background: #cce5ff;
-  margin: 5px;
-}
 
-.logo {
-  text-decoration: none;
-  font-family: 'Futura Std', sans-serif;
-  font-weight: 600;
-  color: black;
-  margin: auto;
-  padding-left: 1vw;
-  font-size: larger;
-}

@@ -1,7 +1,7 @@
 <!-- this component returns a list of all the events -->
 <template>
 	<div class="container-fluid">
-		<ul class="nav nav-tabs justify-content-end">
+		<ul class="d-flex justify-content-start">
 			<li class="nav-item">
 				<NuxtLink class="btn" to="/events">
 					2022
@@ -37,11 +37,16 @@
 </template>
 
 <style>
-a.btn {
+
+.nav-item .btn {
 	color: #7187c0; 
+	text-decoration: none;
+    display: block;
 }
 
-a.btn:hover {
+
+
+.nav-item .btn:hover {
 	color: #ffff;
 	background-color: #f496a8;
 }
