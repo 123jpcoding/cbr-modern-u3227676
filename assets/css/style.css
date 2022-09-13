@@ -1,30 +1,28 @@
-
 .page {
-    background-color: green;
-    padding: 2em;
+  background-color: #cce5ff;
+  padding: 2em;
 }
 
+
 h2 {
-    padding-top: 2em;
+  padding-top: 2em;
 }
 
 ul {
-    background: #3399ff;
-    padding: 20px;
-  }
+  padding: 20px;
+}
 
 ul li {
-    background: #cce5ff;
-  color: darkblue;
+  background: #cce5ff;
   margin: 5px;
 }
 
-.cmlogo{
-    text-decoration: none;
-    font-family: 'Futura Std', sans-serif;
-    font-weight: 600;
-    color: black;
-    margin: auto;
-    padding-left: 1vw;
-    font-size: larger;
+.logo {
+  text-decoration: none;
+  font-family: 'Futura Std', sans-serif;
+  font-weight: 600;
+  color: black;
+  margin: auto;
+  padding-left: 1vw;
+  font-size: larger;
 }

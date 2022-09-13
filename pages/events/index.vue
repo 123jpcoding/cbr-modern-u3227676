@@ -1,9 +1,8 @@
 <template>
 	<div class="container">
+		<SiteNavigation />
 		<h2>All events</h2>
 		<h3>Filename: pages/events/index.vue</h3>
-
-		<SiteNavigation />
 
 
 		<div class="events">

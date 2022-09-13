@@ -1,10 +1,8 @@
 <template>
 	<div class="container">
-		<!-- <h2>{{ $route.params.slug }}</h2> -->
+		<SiteNavigation />
 		<h2>{{  page[0].title.rendered  }}</h2>
 		<h3>Filename: pages/_pages.vue</h3>
-
-		<SiteNavigation />
 
 		<div class="page">
 			<!-- the data returns an array with one item in it, so need to reference it below -->
