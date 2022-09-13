@@ -42,7 +42,7 @@ a.btn {
 }
 
 a.btn:hover {
-	color: #fbc589;
+	color: #ffff;
 	background-color: #f496a8;
 }
 </style>

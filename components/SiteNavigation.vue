@@ -2,29 +2,18 @@
 <!-- if we put it here we can avoid having to repeat the code -->
 <template>
 	<nav>
-  <NuxtLink to="/">
+  <NuxtLink class="btn" to="/">
       Home
     </NuxtLink>
-    <NuxtLink to="/about">
+    <NuxtLink class="btn" to="/about">
       About
     </NuxtLink>
-		<NuxtLink to="/buildings">
+		<NuxtLink class="btn" to="/buildings">
       Buildings
     </NuxtLink>
-    <NuxtLink to="/events">
+    <NuxtLink class="btn" to="/events">
       Events
     </NuxtLink>
 	</nav>
 </template>
 
-<style>
-  nav, a { 
-    color: red;
-    font-family: courier;
-    font-size: 25px;
-  }
-
-  nav, a:hover {
-    color: green;
-  }
-</style>
