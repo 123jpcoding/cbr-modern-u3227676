@@ -2,7 +2,6 @@
 	<div class="container">
 		<SiteNavigation />
 		<h2>{{  page[0].title.rendered  }}</h2>
-		<h3>Filename: pages/_pages.vue</h3>
 
 		<div class="page">
 			<!-- the data returns an array with one item in it, so need to reference it below -->

@@ -42,6 +42,8 @@
 	color: #7187c0; 
 	text-decoration: none;
     display: block;
+	list-style: none;
+	border-radius: 50px;
 }
 
 
@@ -49,5 +51,8 @@
 .nav-item .btn:hover {
 	color: #ffff;
 	background-color: #f496a8;
+	transition: 0.5s;
+	border-radius: 20px;
 }
+
 </style>

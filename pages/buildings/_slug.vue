@@ -1,9 +1,7 @@
 <template>
 	<div class="container">
-		<h2>{{  $route.params.slug  }}</h2>
-		<h3>Filename: pages/buildings/_slug.vue</h3>
-
 		<SiteNavigation />
+		<h2>{{  $route.params.slug  }}</h2>
 
 		<div class="building">
 			<!-- the buiding returns an array with one item in it, so need to reference it below -->

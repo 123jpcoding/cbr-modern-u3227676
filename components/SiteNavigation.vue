@@ -52,7 +52,7 @@
   .title:hover {
     text-decoration: none;
     color: #f496a8;
-    animation: 5s;
+    transition: 0.5s;
   }
 </style>
 

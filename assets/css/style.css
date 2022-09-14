@@ -5,12 +5,20 @@
 
 
 h2 {
-  padding-top: 2em;
+  padding-top: 1em;
+  font: arial;
+  font-weight: 600;
+  color: #7187c0;
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-style: italic;
 }
 
 ul {
-  padding: 20px;
+  padding: 10px;
   list-style: none;
 }
 
-
+p {
+  text-align: justify;
+}

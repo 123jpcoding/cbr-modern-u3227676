@@ -1,12 +1,11 @@
 <template>
 	<div class="container">
+		<SiteNavigation />
 		<h2>{{ $route.params.slug }}</h2>
 		<h3>Filename: pages/events/2017/_slug.vue</h3>
 
-		<SiteNavigation />
-
-		<div class="event">
-			<h2>{{ events.title.rendered }}</h2>
+		<div class="events">
+			<h2>{{ events[0].title.rendered }}</h2>
 
 			<ul>
 				<li>Date: {{ events[0].acf.date }}</li>

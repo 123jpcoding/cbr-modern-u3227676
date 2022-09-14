@@ -1,9 +1,8 @@
 <template>
 	<div class="container">
+		<SiteNavigation />
 		<h2>{{ $route.params.slug }}</h2>
 		<h3>Filename: pages/events/2019/_slug.vue</h3>
-
-		<SiteNavigation />
 
 		<div class="event">
 			<h2>{{ events.title.rendered }}</h2>
