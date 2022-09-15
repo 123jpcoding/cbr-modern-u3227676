@@ -1,16 +1,16 @@
 <template>
 	<div class="container">
 		<SiteNavigation />
-		<h2>{{  $route.params.slug  }}</h2>
 
 		<div class="building">
 			<!-- the buiding returns an array with one item in it, so need to reference it below -->
 			<h2>{{  building[0].title.rendered  }}</h2>
 
-			<ul>
+			<ul class="details">
 				<li><strong>Address:</strong> {{  building[0].acf.location  }}</li>
 				<li><strong>Suburb:</strong> {{  building[0].acf.suburb  }}</li>
 				<li><strong>Architect:</strong> {{  building[0].acf.architect[0].name  }}</li>
+				<li><strong>Description</strong> {{building[0].acf.architect.description}}</li>
 			</ul>
 			<!-- <pre>{{ $data }}</pre> -->
 		</div>

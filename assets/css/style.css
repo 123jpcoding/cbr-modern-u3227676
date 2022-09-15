@@ -55,3 +55,22 @@ figcaption {
   font-weight: bold;
   padding: 1em;
 }
+
+.details {
+  color: #7187c0;
+  display: block;
+  background-color: #ffdfe5;
+}
+
+.list-group-item, .list-group-item a {
+  text-decoration: none;
+  color: #7187c0;
+  border: none;
+  font-weight: bold;
+}
+
+.list-group-item a:hover {
+  text-decoration: none;
+  color: green;
+  border: none;
+}
