@@ -1,8 +1,7 @@
 <template>
 	<div class="container">
 		<SiteNavigation />
-		<h2>All buildings</h2>
-		<h3>Filename: pages/buildings/index.vue</h3>
+		<h2>All Buildings</h2>
 
 
 		<div class="building">

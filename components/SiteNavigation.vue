@@ -5,7 +5,7 @@
   <nav class="navbar navbar-light headWrapper">
     <div class="d-flex justify-content-start">
       <span class="navbar-brand">
-        <img src="~assets/images/logo.png" alt="" width="160" height="160" class="d-inline-block align-text-top">
+        <img id="logo" src="~assets/images/logo.png" alt="" width="160" height="160" class="d-inline-block align-text-top">
       </span>
       <NuxtLink class="title" to="/">
         CANBERRA MODERN
@@ -40,7 +40,6 @@
 
 <style>
   .title {
-    font: arial;
     font-weight: 700;
     text-decoration: none;
     color: #7187c0;
