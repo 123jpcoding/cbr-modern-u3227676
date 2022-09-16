@@ -36,9 +36,7 @@ export default {
 		let renderedContent = page[0].content.rendered;
 		//return the renderedContent
 		return {renderedContent, page}
-    
-
-		
+	
 	},
 }
 </script>

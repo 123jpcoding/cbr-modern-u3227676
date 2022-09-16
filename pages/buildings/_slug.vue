@@ -10,7 +10,6 @@
 				<li><strong>Address:</strong> {{  building[0].acf.location  }}</li>
 				<li><strong>Suburb:</strong> {{  building[0].acf.suburb  }}</li>
 				<li><strong>Architect:</strong> {{  building[0].acf.architect[0].name  }}</li>
-				<li><strong>Description</strong> {{building[0].acf.architect.description}}</li>
 			</ul>
 			<!-- <pre>{{ $data }}</pre> -->
 		</div>

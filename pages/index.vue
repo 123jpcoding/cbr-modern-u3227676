@@ -9,7 +9,7 @@
 
 			<!-- create a div to hold the renderedContent variable holding the data we've retrieved below -->
 			<!-- if we don't use the v-html tag it will render it as a string -->
-			<div v-html="renderedContent"></div>
+			<div class="home" v-html="renderedContent"></div>
 
 			<!-- <pre>{{ $data }}</pre> -->
 		</div>
