@@ -18,6 +18,7 @@ During the design stage, I employed CSS to style the website. I chose to directl
 
 This project has been a great learning opportunity as well as collaborating with one another. I’ve gained a significant insight into operating frameworks and calling APIs using arrays. 
 
+http://localhost:3000/
 
 ## Build Setup
 
