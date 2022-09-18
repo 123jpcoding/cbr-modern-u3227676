@@ -35,6 +35,21 @@
           Buildings
         </NuxtLink>
         </li>
+        <li class="nav-item">
+        <NuxtLink class="btn" to="/partners">
+          Partners
+        </NuxtLink>
+        </li>
+        <li class="nav-item">
+        <NuxtLink class="btn" to="/videos">
+          Videos
+        </NuxtLink>
+        </li>
+        <li class="nav-item">
+        <NuxtLink class="btn" to="/links">
+          Links
+        </NuxtLink>
+        </li>
       </ul>
     </div>
   </nav>
@@ -45,8 +60,8 @@
     font-weight: 700;
     text-decoration: none;
     color: #7187c0;
-    font-size: 3rem;
-    margin-top: 1em;
+    font-size: 2rem;
+    margin-top: 2em;
     font-style: italic;
   }
 

@@ -40,8 +40,8 @@ p {
   padding: 1em;
 }
 
-/*Styling images, excluding the logo*/
-img:not(#logo, .EventPage img) {
+/*Styling images, only on About*/
+.AboutPage img {
   display: block;
   float: right;
   width: 45%;
@@ -54,7 +54,8 @@ figcaption {
   display: none;
 }
 
-.EventPage img {
+/*Styling content on other pages*/
+img:not(#logo) {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -74,14 +75,14 @@ figcaption {
 }
 
 /*Dot hover effect on list items*/
-.list-group-item, .list-group-item a {
+.list-group-item, .list-group-item a, .PartnersPage a, .LinksPage a {
   text-decoration: none;
   color: #7187c0;
   border: none;
   font-weight: bold;
 }
 
-.list-group-item:after {
+.list-group-item:after, .PartnersPage a:after, .LinksPage a:after {
   content: '';
   width: 0%;
   height: 10px;
@@ -91,6 +92,10 @@ figcaption {
   transition: 0.5s;
 }
 
-.list-group-item:hover::after {
+.list-group-item:hover::after, .PartnersPage a:hover::after, .LinksPage a:hover::after {
   width: 1%;
+}
+
+.wp-block-embed__wrapper {
+  font-weight: bold;
 }

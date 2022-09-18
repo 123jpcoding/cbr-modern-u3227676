@@ -3,7 +3,7 @@
 		<SiteNavigation />
 		<h2>{{  page[0].title.rendered  }}</h2>
 
-		<div class="AboutPage">
+		<div class="VideosPage">
 			<!-- the data returns an array with one item in it, so need to reference it below -->
 
 			<!-- create a div to hold the renderedContent variable holding the data we've retrieved below -->
@@ -22,7 +22,7 @@ export default {
 	async asyncData({ params }) {
 		//page returns the data so we can access it below
 		const page = await fetch(
-			`http://cm.beneb.com/wp-json/wp/v2/pages/?slug=about`
+			`http://cm.beneb.com/wp-json/wp/v2/pages/?slug=videos`
 		).then((res) => {
 			if (res.ok) {
 				return res.json()
